@@ -1,0 +1,95 @@
+/* =========================
+   Promotions
+========================= */
+
+.promotions{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-top:25px;
+
+    overflow-x:auto;
+
+    padding-bottom:8px;
+
+}
+
+.promotions::-webkit-scrollbar{
+    display:none;
+}
+
+.promo-card{
+
+    min-width:250px;
+
+    background:white;
+
+    border:1px solid #E8DDD8;
+
+    border-radius:20px;
+
+    padding:18px;
+
+    position:relative;
+
+}
+
+.promo-icon{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:14px;
+
+    background:#F5E9E5;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.tag{
+
+    position:absolute;
+
+    top:18px;
+
+    right:18px;
+
+    background:#FFE7DD;
+
+    color:#B77C67;
+
+    padding:4px 10px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    font-weight:bold;
+
+}
+
+.promo-card h3{
+
+    margin-bottom:8px;
+
+}
+
+.promo-card p{
+
+    color:#666;
+
+    font-size:14px;
+
+}
