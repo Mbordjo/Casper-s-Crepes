@@ -1,0 +1,61 @@
+/* =========================
+   Loyalty Card
+========================= */
+
+.loyalty-card{
+
+    margin-top:25px;
+
+    background:#F5E9E5;
+
+    border-radius:22px;
+
+    padding:22px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.loyalty-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.icon{
+
+    font-size:30px;
+
+}
+
+.loyalty-left p{
+
+    color:#9C7769;
+
+    font-size:14px;
+
+}
+
+.loyalty-left h2{
+
+    margin-top:5px;
+
+    color:#B77C67;
+
+}
+
+.points-text{
+
+    font-size:14px;
+
+    color:#9C7769;
+
+}
