@@ -1,0 +1,59 @@
+/* =========================
+   Categories
+========================= */
+
+.categories{
+
+    display:flex;
+
+    gap:12px;
+
+    margin:30px 0;
+
+    overflow-x:auto;
+
+    padding-bottom:5px;
+
+}
+
+.categories::-webkit-scrollbar{
+    display:none;
+}
+
+.categories button{
+
+    border:none;
+
+    background:white;
+
+    border:1px solid #DDD;
+
+    border-radius:30px;
+
+    padding:12px 20px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    white-space:nowrap;
+
+    transition:.3s;
+
+}
+
+.categories button:hover{
+
+    background:#F5E9E5;
+
+}
+
+.categories .active{
+
+    background:#B77C67;
+
+    color:white;
+
+    border:none;
+
+}

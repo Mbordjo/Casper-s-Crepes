@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome | Casper's Crepes</title>
+
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Signin.css">
+
+</head>
+
+<body>
+
+<div class="phone">
+
+    <main class="welcome-page">
+
+        <img
+            src="images/Logo/Logo.png"
+            class="welcome-logo"
+            alt="Casper's Crepes">
+
+        <h1>Welcome!</h1>
+
+        <p>Create your Casper's Crepes profile.</p>
+
+        <input
+            id="name"
+            type="text"
+            placeholder="Your Name">
+
+        <input
+            id="username"
+            type="text"
+            placeholder="Username">
+
+        <input
+            id="email"
+            type="email"
+            placeholder="Email">
+
+        <h3>Choose Your Pup</h3>
+
+        <div class="avatar-grid">
+
+            <img src="Images/Avatars/Dog1.png"
+                 onclick="selectAvatar(this)"
+                 class="avatar selected">
+
+            <img src="Images/Avatars/Dog2.png"
+                 onclick="selectAvatar(this)"
+                 class="avatar">
+
+            <img src="Images/Avatars/Dog3.png"
+                 onclick="selectAvatar(this)"
+                 class="avatar">
+
+            <img src="Images/Avatars/Dog4.png"
+                 onclick="selectAvatar(this)"
+                 class="avatar">
+
+        </div>
+
+        <button
+            class="continue-button"
+            onclick="createProfile()">
+
+            Continue
+
+        </button>
+
+    </main>
+
+</div>
+
+<script src="js/Signin.js"></script>
+
+</body>
+
+</html>
