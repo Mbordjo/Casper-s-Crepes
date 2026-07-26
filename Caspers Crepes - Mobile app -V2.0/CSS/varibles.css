@@ -1,0 +1,38 @@
+:root{
+
+    /* Colors */
+
+    --primary:#C48B75; /* Plus sign */
+    --primary-light:#cfd5e8; /* Text in Plus Sign*/
+
+    --background:#F7F5F1; 
+    --card:#FFFFFF;
+
+    --text:#B28B7C;
+    --text-light:#C1A296;
+
+    --border:#E8E1DB;
+
+    --success:#72B772;
+    --warning:#F5B942;
+
+    /* Shadows */
+
+    --shadow:
+        0px 4px 12px rgba(0,0,0,.08);
+
+    /* Radius */
+
+    --radius-small:12px;
+    --radius:20px;
+    --radius-large:30px;
+
+    /* Spacing */
+
+    --space-xs:6px;
+    --space-sm:12px;
+    --space-md:18px;
+    --space-lg:24px;
+    --space-xl:36px;
+
+}

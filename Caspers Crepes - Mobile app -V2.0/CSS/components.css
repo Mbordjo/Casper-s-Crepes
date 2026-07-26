@@ -1,0 +1,437 @@
+.card{
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.section{
+
+    padding:18px;
+
+}
+
+.button{
+
+    border:none;
+
+    cursor:pointer;
+
+    border-radius:14px;
+
+    transition:.25s;
+
+}
+
+.button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    margin-bottom:24px;
+
+}
+
+.greeting{
+
+    color:var(--text-light);
+    font-size:14px;
+
+}
+
+.header h1{
+
+    margin-top:4px;
+    font-size:28px;
+    font-weight:700;
+
+}
+
+.tagline{
+
+    margin-top:6px;
+
+    color:var(--text-light);
+
+    font-size:15px;
+
+    font-style:italic;
+
+    line-height:1.4;
+
+}
+
+.profile-btn{
+
+    width:52px;
+    height:52px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:white;
+
+    box-shadow:var(--shadow);
+
+    cursor:pointer;
+
+    font-size:22px;
+
+    transition:.25s;
+
+}
+
+.profile-btn:hover{
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================
+   LOYALTY CARD
+=========================== */
+
+.loyalty{
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+}
+
+.loyalty-top{
+
+    display:flex;
+    justify-content:space-between;
+
+    margin-bottom:18px;
+
+}
+
+.points{
+
+    font-size:20px;
+
+    font-weight:600;
+
+}
+
+.progress{
+
+    height:12px;
+
+    background:#E7E3DF;
+
+    border-radius:999px;
+
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    width:0%;
+
+    height:100%;
+
+    background:var(--primary);
+
+    transition:.4s;
+
+}
+
+.points-left{
+
+    margin-top:14px;
+
+    color:var(--text-light);
+
+    font-size:14px;
+
+}
+
+/* ===========================
+   PROMO SLIDER
+=========================== */
+
+.promo-slider{
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+
+    margin-bottom:28px;
+
+}
+
+.promo-slider::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.promo-track{
+
+    display:flex;
+
+    gap:18px;
+
+    scroll-snap-type:x mandatory;
+
+}
+
+.promo{
+
+    min-width:310px;
+
+    flex-shrink:0;
+
+    scroll-snap-align:start;
+
+}
+
+/* ===========================
+   PROMO CARD
+=========================== */
+
+.promo{
+
+    border-radius:20px;
+
+    padding:20px;
+
+    color:white;
+
+    margin-bottom:18px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.first-order{
+
+    background:linear-gradient(
+        135deg,
+        #D69C7E,
+        #C78468
+    );
+
+}
+
+.special{
+
+    background:linear-gradient(
+        135deg,
+        #B67D68,
+        #8E5E4B
+    );
+
+}
+
+.loyalty-special{
+
+    background:linear-gradient(
+        135deg,
+        #8F6B53,
+        #6F4D3C
+    );
+
+}
+
+.promo h3{
+
+    margin-bottom:8px;
+
+    font-size:22px;
+
+}
+
+.promo p{
+
+    opacity:.95;
+
+}
+
+/* ===========================
+   CATEGORIES
+=========================== */
+
+.categories{
+
+    display:flex;
+    gap:12px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+
+    margin-bottom:24px;
+
+}
+
+.categories::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.category{
+
+    border:none;
+
+    background:white;
+
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+    box-shadow:var(--shadow);
+
+    transition:.25s;
+
+    white-space:nowrap;
+
+}
+
+.category:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.category.active{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+/* ===========================
+   FOOD CARDS
+=========================== */
+
+.food-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.food-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+}
+
+.food-card img{
+
+    width:100%;
+
+    height:180px;
+
+    object-fit:cover;
+
+}
+
+.food-info{
+
+    padding:18px;
+
+}
+
+.food-info h3{
+
+    margin-bottom:8px;
+
+}
+
+.food-info p{
+
+    color:var(--text-light);
+
+    margin-bottom:18px;
+
+    line-height:1.5;
+
+}
+
+.food-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.price{
+
+    font-size:20px;
+
+    font-weight:700;
+
+    margin-right:12px;
+
+}
+
+.add-btn{
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.add-btn:hover{
+
+    transform:scale(1.1);
+
+}
